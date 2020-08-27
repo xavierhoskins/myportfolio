@@ -289,16 +289,17 @@ export const PortfolioH1 = styled.h1`
   font-family: komu-a, sans-serif;
   font-weight: lighter;
   font-style: normal;
+  color: white;
   padding: 50px 0% 0px 0%;
   margin: 0px;
   font-size: 3rem;
-  /* background: rgb(186,186,186);
-    background: linear-gradient(180deg, rgba(186,186,186,1) 20%, rgba(255,255,255,1) 35%); */
-  background: white;
+  /* background: white;
+    background: white; */
+  background: #383838;
 `;
 
 export const PortfolioContainer = styled.div`
-  background-color: white;
+  background-color: #383838;
 `;
 
 export const LinkIcon = styled.i`
@@ -373,7 +374,7 @@ export const ProjectSection = styled.section`
   font-family: komu-a, sans-serif;
   font-weight: lighter;
   font-style: normal;
-  background-color: white;
+  background-color: #383838;
   @media (max-width: 1000px) {
     flex-direction: column-reverse;
   }
@@ -840,6 +841,7 @@ export const SkillSection = styled.section`
   font-family: komu-a, sans-serif;
   font-weight: lighter;
   font-style: normal;
+  background-color: #383838;
 `;
 export const SkillIcon = styled.i`
   color: white;
@@ -848,7 +850,7 @@ export const SkillIcon = styled.i`
 
 export const SkillHeadline = styled.h2`
   text-align: center;
-  color: #0b0b2d;
+  color: #white;
   font-weight: normal;
   font-size: 3rem;
   @media (max-width: 700px) {
@@ -885,7 +887,7 @@ export const SkillBoxRow = styled.div`
 `;
 
 export const SkillBox = styled.div`
-  background-color: #0b0b2d;
+  background-color: black;
   margin: 40px 2%;
   width: 100px;
   padding: 15px 3.2% 5px 3.2%;

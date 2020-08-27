@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background: #383838;
-  color: silver;
+  color: white;
   padding: 15px 10px 0px 10px;
   font-family: komu-a, sans-serif;
   font-weight: lighter;
@@ -31,13 +31,13 @@
 
 #section1 > .aws-sld > .aws-sld__bullets {
   /* margin-left: 115px; */
-  background-color: #eff0f0;
+  background-color: #383838;
 }
 
 #section1 > .aws-sld,
 .aws-sld--organic-arrows {
   /* margin-left: -115px; */
-  --organic-arrow-color: white;
+  --organic-arrow-color: #383838;
 }
 
 .aws-sld,
@@ -184,7 +184,7 @@ i:hover {
 
 #active {
   background-color: #0b0b2d;
-  color: #eff0f0;
+  color: #383838;
 }
 
 #deactive {

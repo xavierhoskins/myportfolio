@@ -56,27 +56,27 @@ const Nav = () => {
           offset={-110}
           duration={500}
         >
-          About Me
+          Projects
         </NavLinks>
         <NavLinks
           activeClass="active"
           to="section3"
           spy={true}
           smooth={true}
-          offset={-75}
+          offset={-125}
           duration={500}
         >
-          Skills
+          About Me
         </NavLinks>
         <NavLinks
           activeClass="active"
           to="section4"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-100}
           duration={500}
         >
-          Projects
+          Skills
         </NavLinks>
       </RightNav>
     </NavSection>
