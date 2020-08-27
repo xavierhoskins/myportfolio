@@ -18,7 +18,7 @@ function Contact(props) {
         <div>
           <ContactP>
             Feel free to reach out to my via email or any of the socials listed
-            above :D
+            above.
           </ContactP>
           <br />
           <ContactP>xavierdhoskins@gmail.com</ContactP>

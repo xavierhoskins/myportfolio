@@ -7,8 +7,6 @@ import '../App.css';
 import {
   PortfolioContainer,
   PortfolioH1,
-  // SectionHeaderHR,
-  // ProjectSection,
   ProjectText,
   ProjectTextH2,
   ProjectTextP,
@@ -16,42 +14,14 @@ import {
   PortfolioButton,
   CodeLink,
   LinkIcon,
-  // ProjectImage,
-  // ProjectImagePic,
-  // ProjectTwoSection,
   ProjectTwoImage,
   ProjectTwoImagePic,
-  //   ProjectThreeImage,
   ProjectThreeImagePic,
   ProjectBox,
   HorizontalFlexBoxes,
-  //   PortfolioBoxFilterButton,
-  //   ResumeModal,
-  //   ResumeIModalImg,
-  //   HorizontalFlexFilter,
-  //   ViewSiteButtonNew,
 } from './StyledComponents';
 
 const Portfolio = (props) => {
-  //   const [open, setOpen] = useState(false);
-  //   const [openRollin, setOpenRollin] = useState(false);
-
-  //   const handleOpen = () => {
-  //     setOpen(true);
-  //   };
-
-  //   const handleClose = () => {
-  //     setOpen(false);
-  //   };
-
-  //   const handleOpenRollin = () => {
-  //     setOpenRollin(true);
-  //   };
-
-  //   const handleCloseRollin = () => {
-  //     setOpenRollin(false);
-  //   };
-
   return (
     <PortfolioContainer id={props.id}>
       <PortfolioH1 style={{ color: 'white', marginBottom: '10px' }}>
@@ -175,88 +145,6 @@ const Portfolio = (props) => {
             </ProjectLinkDiv>
           </ProjectText>
         </ProjectBox>
-
-        {/*
-        <ProjectBox>
-          <ProjectTwoImage>
-            <ProjectTwoImagePic src={TMTpic} alt="Team Mental Training" />
-          </ProjectTwoImage>
-          <ProjectText>
-            <ProjectTextH2>Team Mental Training Online Course</ProjectTextH2>
-
-            <ProjectLinkDiv>
-              <PortfolioButton>
-                <CodeLink
-                  href="https://www.teammentaltraining.com/"
-                  target="_blank"
-                >
-                  Official Website
-                </CodeLink>
-              </PortfolioButton>
-            </ProjectLinkDiv>
-          </ProjectText>
-        </ProjectBox>
-
-        <ProjectBox>
-          <ProjectTwoImage>
-            <ProjectTwoImagePic
-              src={GCSFSpic}
-              alt="Global Cyber Security Summit"
-            />
-          </ProjectTwoImage>
-          <ProjectText>
-            <ProjectTextH2>2018 Global Cybersecurity Summit</ProjectTextH2>
-
-            <ProjectLinkDiv>
-              <ViewSiteButtonNew type="button" onClick={handleOpen}>
-                View Site Design
-              </ViewSiteButtonNew>
-              <Dialog
-                onClose={handleClose}
-                aria-labelledby="customized-dialog-title"
-                open={open}
-              >
-                <DialogContent className="dialog-content">
-                  <ResumeModal onClick={handleClose}>
-                    <ResumeIModalImg
-                      src={GCSFSmain}
-                      alt="2018 Global CyberSecurity Website Design"
-                    />
-                  </ResumeModal>
-                </DialogContent>
-              </Dialog>
-            </ProjectLinkDiv>
-          </ProjectText>
-        </ProjectBox>
-
-        <ProjectBox>
-          <ProjectTwoImage>
-            <ProjectTwoImagePic src={Rollinpic} alt="Rollin Premier" />
-          </ProjectTwoImage>
-          <ProjectText>
-            <ProjectTextH2>Rollin Premier Crypto Trading Group</ProjectTextH2>
-
-            <ProjectLinkDiv>
-              <ViewSiteButtonNew type="button" onClick={handleOpenRollin}>
-                View Site Design
-              </ViewSiteButtonNew>
-              <Dialog
-                onClose={handleCloseRollin}
-                aria-labelledby="customized-dialog-title"
-                open={openRollin}
-              >
-                <DialogContent className="dialog-content">
-                  <ResumeModal onClick={handleCloseRollin}>
-                    <ResumeIModalImg
-                      src={Rollinmain}
-                      alt="Rollin Premier Website Design"
-                    />
-                  </ResumeModal>
-                </DialogContent>
-              </Dialog>
-            </ProjectLinkDiv>
-          </ProjectText>
-        </ProjectBox> */}
       </HorizontalFlexBoxes>
     </PortfolioContainer>
   );
