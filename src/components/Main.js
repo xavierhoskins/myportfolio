@@ -29,10 +29,6 @@ const Main = (props) => {
               Developer
             </FirstSlideTaglineText>
             <FirstSlideTaglineText>
-              <i style={{ color: 'white' }} className="fas fa-coffee" />
-              Coffee Enthusiast
-            </FirstSlideTaglineText>
-            <FirstSlideTaglineText>
               <i style={{ color: 'white' }} className="fas fa-headphones" />
               Music Lover
             </FirstSlideTaglineText>

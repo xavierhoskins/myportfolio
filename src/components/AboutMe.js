@@ -78,7 +78,7 @@ function AboutMe(props) {
             I am dedicated to constantly improving tools and infrastructure to
             maximize productivity, minimize system downtime, and quickly respond
             to the changing needs of the business. I am very passionate about
-            coding and making a difference in peoples' lives.{' '}
+            coding and making a difference in peoples' lives.
           </InfoP>
         </ProfileInfoDiv>
       </Profile>
