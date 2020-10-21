@@ -1,7 +1,8 @@
 import React from 'react';
-import gameoflife from '../imgs/rsz_1rsz_gameoflife.png';
+import gameoflife from '../imgs/gameoflife.jpg';
 import githubfinder from '../imgs/github.jpg';
 import bridges from '../imgs/bridges.png';
+import shopshop from '../imgs/shopshop.jpg';
 import '../App.css';
 
 import {
@@ -29,6 +30,44 @@ const Portfolio = (props) => {
       </PortfolioH1>
 
       <HorizontalFlexBoxes>
+        <ProjectBox>
+          <ProjectTwoImage>
+            <ProjectTwoImagePic src={shopshop} alt="ShopShop" />
+          </ProjectTwoImage>
+          <ProjectText>
+            <ProjectTextH2>ShopShop</ProjectTextH2>
+            <ProjectTextP>
+              A MERN stack E-Commerce Website integrated with PayPal API.
+            </ProjectTextP>
+
+            <ProjectTextP style={{ padding: '10px 0px' }}>
+              React | MongoDB | Express | Node.js{' '}
+            </ProjectTextP>
+            <ProjectLinkDiv>
+              <PortfolioButton>
+                <CodeLink
+                  href="https://github.com/xavierhoskins/ShopShop-Core"
+                  target="_blank"
+                >
+                  <LinkIcon
+                    style={{ marginRight: '0px' }}
+                    className="fab fa-github"
+                  />
+                  View the Code
+                </CodeLink>
+              </PortfolioButton>
+              <PortfolioButton>
+                <CodeLink
+                  href="https://shopshop-core.herokuapp.com/"
+                  target="_blank"
+                >
+                  Official Website
+                </CodeLink>
+              </PortfolioButton>
+            </ProjectLinkDiv>
+          </ProjectText>
+        </ProjectBox>
+
         <ProjectBox>
           <ProjectTwoImage>
             <ProjectThreeImagePic src={gameoflife} alt="Game of Life Logo" />

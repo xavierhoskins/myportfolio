@@ -317,7 +317,7 @@ export const SectionHeaderHR = styled.hr`
 export const ProjectBox = styled.div`
   background-color: #eff0f0;
   margin: 40px 2%;
-  width: 25%;
+  width: 40%;
   border: 3px solid #0b0b2d;
   padding: 15px 0% 5px 0%;
   color: #0b0b2d;
