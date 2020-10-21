@@ -37,7 +37,8 @@ const Portfolio = (props) => {
           <ProjectText>
             <ProjectTextH2>ShopShop</ProjectTextH2>
             <ProjectTextP>
-              A MERN stack E-Commerce Website integrated with PayPal API.
+              A MERN stack E-Commerce application with payment processing
+              integration via PayPal API.
             </ProjectTextP>
 
             <ProjectTextP style={{ padding: '10px 0px' }}>
@@ -79,7 +80,7 @@ const Portfolio = (props) => {
               mathematician John Horton Conway in 1970.
             </ProjectTextP>
 
-            <ProjectTextP>React | Git | Canvas | JavaScript</ProjectTextP>
+            <ProjectTextP>React</ProjectTextP>
             <ProjectLinkDiv>
               <PortfolioButton>
                 <CodeLink
@@ -117,9 +118,7 @@ const Portfolio = (props) => {
               selected.
             </ProjectTextP>
 
-            <ProjectTextP style={{ padding: '10px 0px' }}>
-              React | Git | JavaScript{' '}
-            </ProjectTextP>
+            <ProjectTextP style={{ padding: '10px 0px' }}>React</ProjectTextP>
             <ProjectLinkDiv>
               <PortfolioButton>
                 <CodeLink
@@ -152,13 +151,13 @@ const Portfolio = (props) => {
           <ProjectText>
             <ProjectTextH2>Bridges to Prosperity</ProjectTextH2>
             <ProjectTextP>
-              Bridges to Prosperity is a nonprfit organization dedicated to
+              Bridges to Prosperity is a nonprofit organization dedicated to
               helping those in need travel safely. I helped maintain their
               backend.
             </ProjectTextP>
 
             <ProjectTextP style={{ padding: '10px 0px' }}>
-              Postgres | Docker | SQL | JavaScript{' '}
+              PostgreSql | Docker | Express | React' '}
             </ProjectTextP>
             <ProjectLinkDiv>
               <PortfolioButton>
